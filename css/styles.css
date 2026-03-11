@@ -443,6 +443,7 @@ input {
 }
 
 .footer-subscribe-wrap {
+  margin-left: auto;
 }
 .footer-form {
   display: flex;
@@ -571,16 +572,17 @@ input {
   background-color: #e7e9fc;
   border-radius: 100%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transition-property: background-color, fill;
+  transition-property: background-color, fill, stroke;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
   fill: #ffffff;
+  stroke: #ffffff;
 }
 .modal-btn-icon {
-  stroke: currentColor;
+  color: currentColor;
 }
 .modal-slogan {
   display: block;
@@ -595,6 +597,9 @@ input {
 }
 .feedback-wrapper {
   margin-bottom: 8px;
+}
+.feedback-wrapper-email {
+  margin-bottom: 16px;
 }
 .feedback-label {
   display: block;
