@@ -566,24 +566,24 @@ input {
   position: absolute;
   top: 24px;
   right: 24px;
-  color: #2e2f42;
   width: 24px;
   height: 24px;
+  color: #2e2f42;
   background-color: #e7e9fc;
   border-radius: 100%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transition-property: background-color, fill, stroke;
+  transition-property: background-color, color;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
-  fill: #ffffff;
-  stroke: #ffffff;
+  color: #ffffff;
 }
 .modal-btn-icon {
-  color: currentColor;
+  fill: currentColor;
 }
+
 .modal-slogan {
   display: block;
   font-weight: 500;
@@ -598,8 +598,8 @@ input {
 .feedback-wrapper {
   margin-bottom: 8px;
 }
-.feedback-wrapper-email {
-  margin-bottom: 16px;
+.feedback-wrapper-comment {
+  margin-bottom: 18px;
 }
 .feedback-label {
   display: block;
@@ -694,6 +694,7 @@ input {
 .feedback-toggler-icon {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
+  fill: #f4f4fd;
 }
 .feedback-link {
   line-height: 1.33333;
